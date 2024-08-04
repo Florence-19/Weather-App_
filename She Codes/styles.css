@@ -1,0 +1,79 @@
+.containers{
+    background-color: white;
+    max-width: 800px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65,50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+
+body{
+    background-color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#temperature{
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#wind {
+    color: red;
+}
+
+.weather-app-data {
+    display: flex;
+}
+footer p{
+    padding: 20px;
+}
+.weather-data {
+    margin-right: 20px; /* Adjust space between the weather data and the icon/temperature */
+    width: 60%;
+}
+
+.weather-app-city {
+    font-weight: bold;
+    margin: 0;
+}
+
+.weather-app-details {
+    margin: 0;
+}
+
+.weather-app-icon {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.weather-app-temperature {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold;
+    margin: 0 5px; /* Adjust space between the temperature and the unit */
+}
+
+.weather-app-unit {
+    font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+.fa-cloud {
+    color: rgb(47, 35, 139); /* Set icon color to white */
+    font-size: 4rem; /* Adjust the size as needed */
+    margin-right: 10px; /* Adjust space between the icon and the temperature */
+    
+}
+
+.low-temp{
+    display: block;
+    margin: auto;
+    color: red;
+}
+.temp{
+    display: flex;
+}
+
+.days{
+    color:blue;
+}
